@@ -50,7 +50,7 @@ end
 
 startbypass()
 
-local login={'Ильдар Грифулин', 'Man Mmm' } 
+local login={'DayTona', 'Man Mmm' } 
 
 local login_vip={
 	'Phoenix',

@@ -7,10 +7,36 @@ EXIT() end
 if HBP == 3 then startbypass() end
 end
 
+function bps()
+gg.setRanges(gg.REGION_ANONYMOUS) 
+gg.clearResults()
+gg.searchNumber('5001;1.1;1F::10',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100) 
+gg.searchNumber('1.2F;1.8F:9::1',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
+gg.searchNumber('1.1F;1.4F:3::1',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
+gg.searchNumber('1.1D;1.4D:2::10',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
+gg.clearResults() 
+gg.searchNumber('5001;1.1;1F::10',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
+gg.toast('50%')
+gg.getResults(100) 
+gg.searchNumber('1.2F;1.8F:9::1',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
+gg.searchNumber('1.1F;1.4F:3::1',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) gg.searchNumber('1.1D;1.4D:2::10',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber('5001;1.1;1F::10',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100) 
+gg.searchNumber('1.2F;1.8F:9::1',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
+gg.searchNumber('1.1F;1.4F:3::1',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
+gg.searchNumber('1.1D;1.4D:2::10',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
+gg.clearResults() 
+gg.searchNumber('5001;1.1;1F::10',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
+gg.toast('100%')
+gg.alert('Average Bypass Injected')
+end
+
 function startbypass() 
 gg.setVisible(false)
 HH = gg.alert('🔛Хотите активировать bypass?', 'ДА\n✔️', 'НЕТ\n❌' , 'Что это?\n❓')
-if HH == 1 then abypass() end
+if HH == 1 then bps() end
 if HH == 2 then end 
 if HH == 3 then helpbypass() end
 end 
@@ -18,7 +44,7 @@ end
 
 startbypass()
 
-local login={'Ильдар Грифулин', 'Алексей Новески' } 
+local login={'Ильдар Грифулин', 'Алексей Новески', 'Павел Герасимов', 'Рома Климов', 'Петя Игоренко'} 
 
 local login_vip={
 	'Phoenix',
@@ -42,7 +68,7 @@ local vip_id={
 	'283'
 	}
 
-local cd_pass={'28429', '29625'
+local cd_pass={'19482', '24315', '72012', '42042', '74992'
 } 
 PS = #cd_pass
 LG = #login
@@ -239,7 +265,7 @@ gg.searchNumber('1.1D;1.4D:2::10',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
 gg.clearResults() 
 gg.searchNumber('5001;1.1;1F::10',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
 gg.toast('100%')
-gg.alert('Average Bypass Injected')
+gg.alert('Активирован средний байпасс! ')
 end
 
 function lbypass()
@@ -295,7 +321,7 @@ gg.getResults(100)
 gg.searchNumber('1.2F;1.8F:9::1',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) 
 gg.searchNumber('1.1F;1.4F:3::1',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1) gg.searchNumber('1.1D;1.4D:2::10',gg.TYPE_DOUBLE, false,gg.SIGN_EQUAL, 0, -1)
 gg.clearResults()
-gg.alert('Large Bypass Injected')
+gg.alert('Долгий Bypass активирован!')
 HOME()
 end
 

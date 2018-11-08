@@ -47,7 +47,7 @@ startbypass()
 local login={'Ильдар Грифулин', 'Алексей Новески', 'Павел Герасимов', 'Рома Климов', 'Петя Игоренко', 'Антон Ясюкевич', 'Omnetic Ff', 'Hackerxxx Lil'} 
 
 local login_vip={
-	'Phoenix',
+	'User1',
 	'Asher TV',
 	'ZigZag', 
 	'MayloHack'
